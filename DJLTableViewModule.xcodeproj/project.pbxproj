@@ -17,6 +17,10 @@
 		1895D2282761A62900A203ED /* DJLTableViewModuleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1895D2272761A62900A203ED /* DJLTableViewModuleTests.m */; };
 		1895D2322761A62900A203ED /* DJLTableViewModuleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1895D2312761A62900A203ED /* DJLTableViewModuleUITests.m */; };
 		1895D2342761A62900A203ED /* DJLTableViewModuleUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1895D2332761A62900A203ED /* DJLTableViewModuleUITestsLaunchTests.m */; };
+		1895D2432761A64E00A203ED /* DJLTableViewModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 1895D2422761A64E00A203ED /* DJLTableViewModule.m */; };
+		1895D2462761A65E00A203ED /* DJLTableViewFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 1895D2452761A65E00A203ED /* DJLTableViewFactory.m */; };
+		1895D2492761A66A00A203ED /* DJLTableViewDelegateModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 1895D2482761A66A00A203ED /* DJLTableViewDelegateModule.m */; };
+		1895D24C2761A67600A203ED /* DJLTableViewDataSourceModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 1895D24B2761A67600A203ED /* DJLTableViewDataSourceModule.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +58,15 @@
 		1895D22D2761A62900A203ED /* DJLTableViewModuleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DJLTableViewModuleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1895D2312761A62900A203ED /* DJLTableViewModuleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DJLTableViewModuleUITests.m; sourceTree = "<group>"; };
 		1895D2332761A62900A203ED /* DJLTableViewModuleUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DJLTableViewModuleUITestsLaunchTests.m; sourceTree = "<group>"; };
+		1895D2412761A64E00A203ED /* DJLTableViewModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DJLTableViewModule.h; sourceTree = "<group>"; };
+		1895D2422761A64E00A203ED /* DJLTableViewModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DJLTableViewModule.m; sourceTree = "<group>"; };
+		1895D2442761A65E00A203ED /* DJLTableViewFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DJLTableViewFactory.h; sourceTree = "<group>"; };
+		1895D2452761A65E00A203ED /* DJLTableViewFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DJLTableViewFactory.m; sourceTree = "<group>"; };
+		1895D2472761A66A00A203ED /* DJLTableViewDelegateModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DJLTableViewDelegateModule.h; sourceTree = "<group>"; };
+		1895D2482761A66A00A203ED /* DJLTableViewDelegateModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DJLTableViewDelegateModule.m; sourceTree = "<group>"; };
+		1895D24A2761A67600A203ED /* DJLTableViewDataSourceModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DJLTableViewDataSourceModule.h; sourceTree = "<group>"; };
+		1895D24B2761A67600A203ED /* DJLTableViewDataSourceModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DJLTableViewDataSourceModule.m; sourceTree = "<group>"; };
+		1895D2512761A75C00A203ED /* DJLTableViewHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DJLTableViewHeader.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +117,7 @@
 		1895D20A2761A62700A203ED /* DJLTableViewModule */ = {
 			isa = PBXGroup;
 			children = (
+				1895D2402761A63A00A203ED /* DJLTableViewModule */,
 				1895D20B2761A62700A203ED /* AppDelegate.h */,
 				1895D20C2761A62700A203ED /* AppDelegate.m */,
 				1895D20E2761A62700A203ED /* SceneDelegate.h */,
@@ -134,6 +148,22 @@
 				1895D2332761A62900A203ED /* DJLTableViewModuleUITestsLaunchTests.m */,
 			);
 			path = DJLTableViewModuleUITests;
+			sourceTree = "<group>";
+		};
+		1895D2402761A63A00A203ED /* DJLTableViewModule */ = {
+			isa = PBXGroup;
+			children = (
+				1895D2512761A75C00A203ED /* DJLTableViewHeader.h */,
+				1895D2412761A64E00A203ED /* DJLTableViewModule.h */,
+				1895D2422761A64E00A203ED /* DJLTableViewModule.m */,
+				1895D2442761A65E00A203ED /* DJLTableViewFactory.h */,
+				1895D2452761A65E00A203ED /* DJLTableViewFactory.m */,
+				1895D2472761A66A00A203ED /* DJLTableViewDelegateModule.h */,
+				1895D2482761A66A00A203ED /* DJLTableViewDelegateModule.m */,
+				1895D24A2761A67600A203ED /* DJLTableViewDataSourceModule.h */,
+				1895D24B2761A67600A203ED /* DJLTableViewDataSourceModule.m */,
+			);
+			path = DJLTableViewModule;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -268,8 +298,12 @@
 			files = (
 				1895D2132761A62700A203ED /* ViewController.m in Sources */,
 				1895D20D2761A62700A203ED /* AppDelegate.m in Sources */,
+				1895D2432761A64E00A203ED /* DJLTableViewModule.m in Sources */,
 				1895D21E2761A62800A203ED /* main.m in Sources */,
 				1895D2102761A62700A203ED /* SceneDelegate.m in Sources */,
+				1895D2492761A66A00A203ED /* DJLTableViewDelegateModule.m in Sources */,
+				1895D2462761A65E00A203ED /* DJLTableViewFactory.m in Sources */,
+				1895D24C2761A67600A203ED /* DJLTableViewDataSourceModule.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
